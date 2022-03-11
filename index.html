@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+
+        <p class="bdtxt">Simple tictactoe game. Play with a friend!</p>
+        <p class="bdtxt">Press the empty spaces to fill it with a corresponding symbol, either an O or X. Reload the page to restart the game!</p>
+        
+        <div id="totalSpaces">
+            <table id="ttable">
+                <tr>
+                    <td><div class="space" id="11">...</div></td>
+                    <td><div class="space" id="12">...</div></td>
+                    <td><div class="space" id="13">...</div></td>
+                </tr>
+                <tr>
+                    <td><div class="space" id="21">...</div></td>
+                    <td><div class="space" id="22">...</div></td>
+                    <td><div class="space" id="23">...</div></td>
+                </tr>
+                <tr>
+                    <td><div class="space" id="31">...</div></td>
+                    <td><div class="space" id="32">...</div></td>
+                    <td><div class="space" id="33">...</div></td>
+                </tr>
+            </table>
+        </div>
+
+        <p id="result"></p>
+
+        <button id="pageref" onclick="window.location.reload()">Restart</button>
+
+        <script src="main.js"></script>
+    </body>
+</html>

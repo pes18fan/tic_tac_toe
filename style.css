@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html
+{
+    font-size: 10px;
+}
+
+body
+{
+    background-color: rgb(36, 35, 35);
+    color: rgb(252, 247, 240);
+}
+
+.bdtxt
+{
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+#result
+{
+    margin: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#pageref
+{
+    background-color: antiquewhite;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+table, td
+{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td
+{
+    height: 3rem;
+}
+
+table
+{
+    width: 15rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.space
+{
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    font-size: 3rem;
+}
+
+h1
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 2rem auto;
+    padding: 1rem;
+}
+
